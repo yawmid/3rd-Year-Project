@@ -261,7 +261,7 @@ end
 % =========================================================================
 fprintf('\n\n%%%%%%%% STARTING PHASE 2: BATCH POST-PROCESSING %%%%%%%%\n');
 
-casedir = 'C:\Users\yawmi\Downloads\ML-Stenosis_Studentship-main\ML-Stenosis_Studentship-main\CFD processing\U-net\Trial';
+casedir = 'PATH/TO/YOUR/DIRECTORY';
 nvint = 1;
 %%% Post processing %%%
 npcx=72; % number of points along circumference
@@ -313,3 +313,4 @@ disp(datestr(endtime));
 disp(['Elasped time: ' num2str(minutes(endtime-starttime)) ' minutes']);
 disp('%%%%%%%%%%');
 disp(' ');
+
