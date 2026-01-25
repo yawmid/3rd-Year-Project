@@ -17,7 +17,7 @@ npoint_std = 200;       % Standardized number of points along vessel
 numgeometries = 30;     % Number of synthetic arteries to generate
 
 % Define Directories (Update this path if needed)
-datadir = 'C:\Users\yawmi\Downloads\ML-Stenosis_Studentship-main\ML-Stenosis_Studentship-main\Statistical Generation Synthetic Data\Stenosed Arteries';
+datadir = 'PATH/TO/YOUR/DIRECTORY'
 
 % Output Directory
 synthetic_dir = fullfile(fileparts(fileparts(datadir)), 'synthetic_generated_Stenosed');
@@ -221,4 +221,5 @@ function plot_artery_viz(data_matrix, plot_title, save_dir, save_name)
     
     saveas(fig, fullfile(save_dir, save_name));
     close(fig);
+
 end
